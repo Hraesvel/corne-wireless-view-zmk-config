@@ -118,10 +118,10 @@
         col_layer {
             label = "COLMAK";
             bindings = <
-  &kp Q        &kp W        &kp F       &kp P         &kp B            &kp J    &kp L        &kp U            &kp Y        &kp SQT
-  &hm LSHFT A  &hm LCTRL R  &hm LALT S  &hm LGUI T    &kp G            &kp M    &hm LGUI N   &hm LALT E       &hm LCTRL I  &hm LSHFT O
-  &kp Z        &kp X        &kp C       &kp D         &kp V            &kp K    &kp H        &kp COMMA        &kp DOT      &kp FSLH
-                            &kp ESC     &lt 1 RETURN  &kp BACKSPACE    &kp TAB  &lt 2 SPACE  &hm LG(P) LG(C)
+  &kp Q        &kp W        &kp F       &kp P        &kp B            &kp J    &kp L         &kp U            &kp Y        &kp SQT
+  &hm LSHFT A  &hm LCTRL R  &hm LALT S  &hm LGUI T   &kp G            &kp M    &hm LGUI N    &hm LALT E       &hm LCTRL I  &hm LSHFT O
+  &kp Z        &kp X        &kp C       &kp D        &kp V            &kp K    &kp H         &kp COMMA        &kp DOT      &kp FSLH
+                            &kp ESC     &lt 1 SPACE  &kp BACKSPACE    &kp TAB  &lt 2 RETURN  &hm LG(P) LG(C)
             >;
         };
 
@@ -130,7 +130,7 @@
             bindings = <
   &kp LG(N1)      &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)         &caps_word  &kp PG_UP        &kp UP_ARROW  &kp PG_DN     &kp END
   &qs LEFT_SHIFT  &kp LCTRL   &kp LALT    &kp LGUI    &hm LG(V) LG(X)    &kp U_SHOT  &kp LEFT         &kp DOWN      &kp RIGHT     &kp HOME
-  &kp U_UNDO      &kp U_CUT   &kp U_COPY  &kp U_PSTE  &kp U_REDO         &kp C_PP    &kp C_PREV       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT
+  &kp U_UNDO      &kp U_CUT   &kp U_COPY  &kp U_PSTE  &kp LG(C)          &kp C_PP    &kp C_PREV       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT
                               &none       &none       &sys_reset         &kp RET     &lt 3 BACKSPACE  &kp DEL
             >;
         };
