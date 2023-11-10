@@ -101,6 +101,12 @@
       COMBO(RIGHT_BRACKET, 26 27)
       COMBO(UNDERSCORE, 27 28)
       COMBO(QUESTION, 28 29)
+
+        layer4 {
+            bindings = <&tog 4>;
+            key-positions = <32 33>;
+            layers = <0 4>;
+        };
     };
 
     macros {
@@ -151,6 +157,15 @@
   &trans  &trans  &kp MINUS  &r_arrow  &kp LS(PIPE)    &kp LS(LT)  &kp LS(GT)  &kp DOT   &trans    &trans
   &trans  &trans  &trans     &trans    &trans          &trans      &trans      &trans    &trans    &trans
                   &trans     &trans    &trans          &trans      &trans      &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &kp A   &kp R   &kp S   &kp T   &kp G     &kp M   &kp N   &kp E   &kp I   &kp O
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
