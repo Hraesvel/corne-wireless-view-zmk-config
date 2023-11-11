@@ -124,10 +124,10 @@
         col_layer {
             label = "COLMAK";
             bindings = <
-  &kp Q        &kp W        &kp F       &kp P            &kp B        &kp J       &kp L       &kp U            &kp Y        &kp SQT
-  &hm LSHFT A  &hm LCTRL R  &hm LALT S  &hm LGUI T       &kp G        &kp M       &hm LGUI N  &hm LALT E       &hm LCTRL I  &hm LSHFT O
-  &kp Z        &kp X        &kp C       &kp D            &kp V        &kp K       &kp H       &kp COMMA        &kp DOT      &kp FSLH
-                            &kp ESC     &lt 1 BACKSPACE  &kp SPACE    &kp RETURN  &lt 2 TAB   &hm LG(P) LG(C)
+  &kp Q        &kp W        &kp F       &kp P        &kp B      &kp J       &kp L            &kp U            &kp Y        &kp SQT
+  &hm LSHFT A  &hm LCTRL R  &hm LALT S  &hm LGUI T   &kp G      &kp M       &hm LGUI N       &hm LALT E       &hm LCTRL I  &hm LSHFT O
+  &kp Z        &kp X        &kp C       &kp D        &kp V      &kp K       &kp H            &kp COMMA        &kp DOT      &kp FSLH
+                            &kp ESC     &lt 1 SPACE  &kp TAB    &kp RETURN  &lt 2 BACKSPACE  &hm LG(P) LG(C)
             >;
         };
 
