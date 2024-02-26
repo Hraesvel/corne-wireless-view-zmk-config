@@ -33,14 +33,10 @@
     quick-tap-ms = <0>;
 };
 
-&caps_word {
-    continue-list = <UNDERSCORE MINUS>;
-};
+&caps_word { continue-list = <UNDERSCORE MINUS>; };
 
 / {
-    chosen {
-        zmk,matrix_transform = &five_column_transform;
-    };
+    chosen { zmk,matrix_transform = &five_column_transform; };
 };
 
 // KEYMAP
@@ -56,6 +52,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
         qs: qs {
             compatible = "zmk,behavior-sticky-key";
             label = "QS";
@@ -103,9 +100,9 @@
       COMBO(QUESTION, 28 29)
 
         layer4 {
-            bindings = <&tog 4>;
+            bindings = <&tog 3>;
             key-positions = <32 33>;
-            layers = <0 4>;
+            layers = <0 3>;
         };
     };
 
@@ -148,15 +145,6 @@
   &bt BT_SEL 1  &kp F4  &kp F5   &kp F6     &kp F11       &kp ASTRK   &kp N4  &kp N5  &kp N6  &kp MINUS
   &bt BT_SEL 2  &kp F1  &kp F2   &kp F3     &kp F12       &kp N0      &kp N1  &kp N2  &kp N3  &kp FSLH
                         &kp ESC  &kp SPACE  &kp DELETE    &bt BT_CLR  &none   &none
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-  &trans  &trans  &trans     &trans    &trans          &kp LBKT    &kp RBKT    &kp BSPC  &kp BSPC  &trans
-  &trans  &trans  &kp MINUS  &r_arrow  &kp LS(PIPE)    &kp LS(LT)  &kp LS(GT)  &kp DOT   &trans    &trans
-  &trans  &trans  &trans     &trans    &trans          &trans      &trans      &trans    &trans    &trans
-                  &trans     &trans    &trans          &trans      &trans      &trans
             >;
         };
 
