@@ -295,10 +295,10 @@
 
         Zbrush {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &kp Q       &kp W       &kp E     &kp R  &kp Y
-  &trans  &trans  &trans  &trans  &trans    &kp K_REDO  &kp K_UNDO  &hm U S   &kp X  &kp SPACE
-  &trans  &trans  &trans  &trans  &trans    &kp LSHFT   &hm F P     &kp TAB   &kp D  &kp LS(LC(D))
-                  &trans  &trans  &trans    &kp LCTRL   &kp LALT    &kp LGUI
+  &trans  &trans  &trans  &trans  &trans    &kp Q          &kp W      &kp E      &kp R  &kp Y
+  &trans  &trans  &trans  &trans  &trans    &kp LG(LC(Z))  &kp LG(Z)  &hm U S    &kp X  &kp SPACE
+  &trans  &trans  &trans  &trans  &trans    &kp G          &hm F P    &kp TAB    &kp D  &kp LS(LC(D))
+                  &trans  &trans  &trans    &kp LCTRL      &kp LALT   &kp LSHFT
             >;
         };
     };
